@@ -8,7 +8,7 @@ import {
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full bg-gray-950">
+    <header className="absolute top-0 z-50 w-full bg-gray-950">
       <div className="container h-14 flex items-center max-w-screen-2xl justify-between">
         <Link
           href="/deck"
