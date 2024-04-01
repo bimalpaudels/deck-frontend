@@ -10,7 +10,7 @@ async function getData() {
 
 export default async function Page() {
   const data = await getData();
-  console.log(data);
+
   return (
     <div>
       <h1>List of Decks</h1>

@@ -19,7 +19,7 @@ export default function LoginForm() {
           </h2>
           <p className="text-center text-sm text-gray-400 mb-4">
             Don't have an account yet?{" "}
-            <Link href="#" className="text-green-500">
+            <Link href="/user/registration" className="text-green-500">
               Signup
             </Link>
           </p>

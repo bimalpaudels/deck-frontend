@@ -5,11 +5,13 @@ import AddDeck from "./add/add-deck";
 async function getDecks() {
   const res = await fetch("http://localhost:8000/deck");
 
-  if (!res.ok) {
-    throw new Error("Failed to fetch data");
-  }
+  const result = await res.json();
+  // console.log(result);
+  // if (!res.ok) {
+  //   throw new Error("Failed to fetch data");
+  // }
 
-  return res.json();
+  return result;
 }
 
 export default async function Deck() {
